@@ -2,17 +2,17 @@ from linepy import *
 from akad.ttypes import *
 from multiprocessing import Pool, Process
 from datetime import datetime
-import time,random,sys,json,codecs,threading,glob,re,os,subprocess,asyncio
+import time,random,pytz,sys,json,codecs,threading,glob,re,os,subprocess,asyncio
 from datetime import datetime, timedelta
 from time import sleep
 from humanfriendly import format_timespan, format_size, format_number, format_length
-import time, random, sys, json, codecs, threading, glob, re, string, os, requests, subprocess, six, ast, urllib, urllib.parse
+import time, random, pytz, sys, json, codecs, threading, glob, re, string, os, requests, subprocess, six, ast, urllib, urllib.parse
 _session = requests.session()
 botStart = time.time()
 settings = {
-    "line": "TOKEN SB",
-    "pb1": "TOKEN KICKER 1",
-    "pb2": "TOKEN KICKER 2",
+    "line": "EyGJPX9GFa2vaQqNpQ6e.nVqDal36OZzmEKfSkjUPlG.zFexOro+Jb2ojskrTvYXpkyRPpGNm9w+9obgpu8jVbY=",
+    "pb1": "EybgHzxNSXOTe3JUkmge.6GaZ/pkGSlmyqAkjh/7rdG.9rzTF7LbLjZXq0ZdUDJgsLGRrvP/yM/Izyh9oNTpJVM=",
+    "pb2": "Ey95rGvAS1OHw39YpP13.rZ64i5V65irdzxQNoFl8yW.mycE04J206CkzpY+2wYG7GbMX2baAUeNVk2KOo8XDQQ=",
     "kunci": False,
     "kata": "prank",
     "blacklist": {}
